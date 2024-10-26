@@ -1,39 +1,39 @@
 //5. WAP to take two Array input from user and sort them in ascending or 
 //descending order as per user’s choice
 #include <stdio.h>
-void ascending(int[], int);
-void desceding(int[], int);
+void ascending(int[],int);
+void desceding(int[],int);
 int main()
 {
-    int size, a[100], choice, i, j;
+    int size,a[100],choice,i,j;
     printf("\nEnter the size of an array: ");
-    scanf("%d", &size);
+    scanf("%d",&size);
 
     printf("\n");
-    for (i = 0; i < size; i++)
+    for (i=0;i<size;i++)
     {
-        printf("Element[%d] = ", i);
-        scanf("%d", &a[i]);
+        printf("Element[%d]=",i);
+        scanf("%d",&a[i]);
     }
 
     printf("\nChoices\n");
     printf("1) Asceding order");
     printf("\n2)  Desceding order");
     printf("\n\nEnter your choice: ");
-    scanf("%d", &choice);
+    scanf("%d",&choice);
 
     switch (choice)
     {
-    case 1:
-        ascending(a, size);
-        break;
+	    case 1:
+	        ascending(a, size);
+	        break;
 
-    case 2:
-        descending(a, size);
-        break;
+	    case 2:
+	        descending(a, size);
+	        break;
 
-    default:
-        break;
+	    default:
+	        break;
     }
 
     return 0;

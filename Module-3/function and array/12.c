@@ -1,8 +1,8 @@
 //12.WAP to accept 5 students name and store it in array
 #include <stdio.h>
-
 int main()
-{   char student[5][20];
+{   
+	char student[5][20];
     int i;
 
     printf("\nEnter the student name = \n");

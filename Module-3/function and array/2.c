@@ -20,26 +20,26 @@ int main()
     scanf("%d", &choice);
 
     switch (choice)
-    {
-    case 1:
-        add();
-        break;
+    {	
+    	case 1:
+    		add();
+    		break;
 
-    case 2:
-        sub();
-        break;
+    	case 2:
+        	sub();
+        	break;
 
-    case 3:
-        mul();
-        break;
+    	case 3:
+        	mul();
+        	break;
 
-    case 4:
-        div();
-        break;
+    	case 4:
+        	div();
+        	break;
 
-    case 5:
-        mod();
-        break;
+    	case 5:
+        	mod();
+        	break;
 
     default:
         break;
@@ -95,5 +95,5 @@ void mod()
     printf("Enter the num2: ");
     scanf("%d", &num2);
 
-    printf("%d%%%d = %d",num1,num2,num1%num2);
+    printf("%d = %d",num1,num2,num1%num2);
 }

@@ -1,4 +1,3 @@
-
 //17.WAP to show difference between Structure and Union.
 #include<stdio.h>
 struct main
@@ -11,9 +10,7 @@ union me
 {
 	int n1;
 	char ch1;
-
 };
-
 int main()
 {
 	printf("  example of structure ");

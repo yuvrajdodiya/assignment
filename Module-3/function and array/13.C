@@ -11,11 +11,9 @@ int main()
 	for(i=0;i<5;i++)
 	{
 		printf("\n%d",num[i]);
-
-
 		if(num[i] % 2 == 0)
 		{
-		printf("\nthe number is even %d",num[i]);
+			printf("\nthe number is even %d",num[i]);
 		}
 		else 
 		{

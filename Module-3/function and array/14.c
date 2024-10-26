@@ -1,8 +1,8 @@
 //14.Perform 2D matrix array.
 #include<stdio.h>
 int main()
-{	int x[50][50],size,i,j;
-
+{	
+	int x[50][50],size,i,j;
 	printf("Enter the size of array: ");
 	scanf("%d",&size);
 

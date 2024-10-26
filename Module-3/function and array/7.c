@@ -1,17 +1,21 @@
 //7. WAP Find out length of string without using inbuilt function
 #include<stdio.h>
-int main()
-{	int length = 0;
-	char str[100];
-    
-    printf("Enter a string: ");
-    fgets(str, sizeof(str), stdin);
-
-    while (str[length] != '\0' && str[length] != '\n') 
+int l(char s[])
+{
+	int len=0,i;
+	for(i=0;s[i]!='\0';i++)
 	{
-        length++;
-    }
-	  printf("Length of the string: %d\n", length);
-
-    return 0;
+		len++;//5
+	}
+	return len;
+}
+int main()
+{
+	char s[50];
+	printf("\nEnter the string = ");
+	gets(s);
+	printf("\nOriginal string = %s",s);
+	int len = l(s);
+	printf("\nLength of string = %d",len);
+	return 0;
 }

@@ -11,8 +11,8 @@ empno, empname, address andage
 #include <stdbool.h>
 void reverseString(char str[]) 
 {
-    int i, n = strlen(str);
-    for (int i = 0; i < n / 2; i++)
+    int i,n = strlen(str);
+    for (int i=0;i<n/2; i++)
 	{
         char temp = str[i];
         str[i] = str[n - i - 1];
@@ -38,7 +38,7 @@ int main()
     char str[100];
 
    
-    printf("Enter a string: ");
+    printf("\nEnter a string: ");
     fgets(str, sizeof(str), stdin);
 
    
@@ -49,15 +49,15 @@ int main()
     reverseString(reversed);
 
    
-    printf("Reversed string: %s\n", reversed);
-
+    printf("\nReversed string: %s", reversed);
+    
     if (isPalindrome(str)) 
 	{
-        printf("The string is a palindrome.\n");
+        printf("\nThe string is a palindrome.");
     }
 	 else 
 	{
-        printf("The string is not a palindrome.\n");
+        printf("\nThe string is not a palindrome.");
     }
 
     return 0;
