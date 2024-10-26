@@ -8,6 +8,7 @@ int main()
 	
 	printf("Enter string :");
 	gets(x);
+	
 	for(i=0; x[i] != '\0'; i++)
 	{
 		if(x[i] == ' ')
@@ -16,7 +17,8 @@ int main()
 			l++;
 			j=0;
 		}
-		else{
+		else
+		{
 			y[l][j]=x[i];
 			j++;
 		}
@@ -33,13 +35,13 @@ int main()
             max=strlen(y[i]);
             m=i;
         }
-	 if (min>strlen(y[i]))
+	 if(min>strlen(y[i]))
         {
             min=strlen(y[i]);
             n=i;
         }
 	}
-	printf("Largest  string is = %s \n smallest string = %s",y[m],y[n]);
+	printf("\nLargest  string is = %s \nsmallest string is  = %s",y[m],y[n]);
 	
 	return 0;
 }

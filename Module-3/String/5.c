@@ -1,4 +1,4 @@
-/*5. Write a program in C to compare two strings without using string library 
+/*5rite a program in C to compare two strings without u. Wsing string library 
 functions*/
 #include<stdio.h>
 #include<string.h>

@@ -24,7 +24,6 @@ main()
 
 	printf("\nEnter the length of string  : ");
 	scanf("%d",&length);
-
 	findSubstring(index,length,name);
 
 }

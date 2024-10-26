@@ -20,12 +20,12 @@ int main()
                 word = 0;  
             }
         }
-		 else 
+		else 
 		{
        		 word = 1;
         }
     }
-		if (word) 
+	if (word) 
 	{
         count++;
     }

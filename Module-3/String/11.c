@@ -16,7 +16,7 @@ int main()
 		{
 			(s1[i])=tolower(s1[i]);
 		}
-		else if ( s1[i] >='a' && s1[i] <='z')
+		else if( s1[i] >='a' && s1[i] <='z')
 		{
 			(s1[i]) = toupper(s1[i]);
 		}
