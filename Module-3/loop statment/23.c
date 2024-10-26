@@ -1,8 +1,8 @@
 //23. C Program to Reverse a Number Using FOR Loop
 #include <stdio.h>
-
 int main()
-{	int num, rev=0, rem, i;
+{	
+	int num, rev=0, rem, i;
 	printf("Enter the number: ");
     scanf("%d", &num);
 

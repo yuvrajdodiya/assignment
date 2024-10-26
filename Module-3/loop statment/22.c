@@ -30,10 +30,14 @@ int main()
     for(i=0; i<3; i++)
     {
         if(rev[i]==num[i])
-          printf("\n%d is palindrome.",num[i]);
-        
+        {
+        	printf("\n%d is palindrome.",num[i]);
+		}
         else
-          printf("\n%d is not palindrome.",num[i]);
+        {
+        	printf("\n%d is not palindrome.",num[i]);
+		}
+          
     }
     return 0;
 }

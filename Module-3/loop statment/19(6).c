@@ -6,15 +6,15 @@
 #include <stdio.h>
 int main()
 {
-    char k = 'A';
-    int i, j;
+    char k ='A';
+    int i,j;
 
-    for (i = 0; i < 5; i++)
+    for (i=0;i<5;i++)
     {
-        k = 'A';
-        for (j = 0; j <= i; j++)
+        k ='A';
+        for(j=0;j<=i;j++)
         {
-            printf(" %c", k);
+            printf(" %c",k);
             k++;
         }
         printf("\n");

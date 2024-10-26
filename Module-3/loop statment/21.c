@@ -3,15 +3,15 @@ palindrome*/
 #include <stdio.h>
 int main()
 {
-    int num[3], temp[3], rev[3], rem, i=0;
+    int num[3],temp[3],rev[3],rem,i=0;
     printf("\n");
     while(i<3)
     {
         printf("Enter num[%d]: ",i+1);
         scanf("%d",&num[i]);
 
-        temp[i] = num[i];
-        rev[i] = 0;
+        temp[i]=num[i];
+        rev[i]=0;
         i++;
     }
 
@@ -20,8 +20,8 @@ int main()
     {
         while(temp[i]>0)
         {
-            rem = temp[i]%10;
-            rev[i] = (rev[i]*10)+rem;
+            rem=temp[i]%10;
+            rev[i]=(rev[i]*10)+rem;
             temp[i] /= 10;
         }
         i++;
@@ -30,10 +30,14 @@ int main()
     for(i=0; i<3; i++)
     {
         if(rev[i]==num[i])
-          printf("\n%d is palindrome.",num[i]);
-        
+        {
+        	printf("\n%d is palindrome.",num[i]);
+        }
         else
-          printf("\n%d is not palindrome.",num[i]);
+        {
+        	printf("\n%d is not palindrome.",num[i]);
+        }
+          
     }
     return 0;
 }

@@ -11,8 +11,6 @@ int main()
         scanf("%s",&name[i]);
     }
     
-    
-
     printf("\n5 Names");
     for(i=0; i<5; i++)
     {

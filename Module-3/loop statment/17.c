@@ -5,7 +5,7 @@ int main()
 {
     int num[5], i, odd=0, even=0;
 
-    printf("\nEnter the 5 numbers = \n");
+    printf("\nEnter the 5 numbers");
     for (i = 0; i < 5; i++)
     {
         printf("Number[%d]: ", i + 1);
@@ -16,10 +16,14 @@ int main()
     while (i < 5)
     {
         if (num[i] % 2 == 0)
-            even ++;
-
+        {
+        	even ++;
+		}
         else
-            odd++;
+        {
+        	odd++;
+		}
+            
 
         i++;
     }
