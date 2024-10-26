@@ -12,58 +12,47 @@ int main()
 	}
     else if (month == 2)
     {
-	
-	    printf("\nFebruary");
+		printf("\nFebruary");
 	}
     else if (month == 3)
     {
-	
-	    printf("\nMarch");
+		printf("\nMarch");
 	}
     else if (month == 4)
     {
-	
-	    printf("\nApril");
+		printf("\nApril");
 	}
     else if (month == 5)
     {
-	
-	    printf("\nMay");
+		printf("\nMay");
 	}
     else if (month == 6)
     {
-	
-	    printf("\nJune");
+		printf("\nJune");
 	}
     else if (month == 7)
     {
-	
-	    printf("\nJuly");
+		printf("\nJuly");
 	}
     else if (month == 8)
     {
-	
-	    printf("\nAugust");
+		printf("\nAugust");
 	}
     else if (month == 9)
     {
-	
-	    printf("\nSeptember");
+		printf("\nSeptember");
 	}
     else if (month == 10)
     {
-	
-	    printf("\nOctober");
+		printf("\nOctober");
 	}
     else if (month == 11)
     {
-	
-	    printf("\nNovember");
+		printf("\nNovember");
 	}
     else if (month == 12)
     {
-	
-	    printf("\nDecember");
+		printf("\nDecember");
 	}
     else
     {

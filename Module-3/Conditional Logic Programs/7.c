@@ -13,6 +13,6 @@ int main()
 	else 
 	{
 		printf("\n student is pass",num);
-		}	
+	}	
 	return 0;
 }

@@ -1,4 +1,5 @@
 //37. WAP to show i. Monday to Sunday using switch case
+#include<stdio.h>
 int main()
 {
 	int ch;
@@ -7,28 +8,36 @@ int main()
 	
 	switch(ch)
 	{
-		case 1 : printf("Monday");
+		case 1 :
+		printf("Monday");
+	    break;
+		
+		case 2 : 
+		printf("Tuesday");
 		break;
 		
-		case 2 : printf("Tuesday");
+		case 3 : 
+		printf("Wednesday");
 		break;
 		
-		case 3 : printf("Wednesday");
+		case 4 : 
+		printf("Thursday");
 		break;
 		
-		case 4 : printf("Thursday");
+		case 5 : 
+		printf("Friday");
 		break;
 		
-		case 5 : printf("Friday");
+		case 6 : 
+		printf("Saturday");
 		break;
 		
-		case 6 : printf("Saturday");
+		case 7 : 
+		printf("Sunday");
 		break;
 		
-		case 7 : printf("Sunday");
-		break;
-		
-		default : printf("Invalid day number.");
+		default : 
+		printf("Invalid day number.");
 	}
 	
 }

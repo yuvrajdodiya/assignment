@@ -21,7 +21,8 @@ int main()
 		{
             printf("\n 30 days in that month ");
         }
-		 else {
+		 else 
+		{
             printf("\n 31 days in that month ");
         }
 	 }
